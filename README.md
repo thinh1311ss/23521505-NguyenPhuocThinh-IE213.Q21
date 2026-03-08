@@ -1,6 +1,6 @@
 # IE213 – Kỹ thuật phát triển hệ thống Web
 
-## 1. Thông tin sinh viên
+# 1. Thông tin sinh viên
 
 * Họ tên: Nguyễn Phước Thịnh
 * MSSV: 23521505
@@ -9,7 +9,7 @@
 
 ---
 
-# 2. Giới thiệu repository
+# 2. Giới thiệu 
 
 Repository này lưu trữ toàn bộ các bài thực hành của môn **IE213 – Kỹ thuật phát triển hệ thống Web**.
 
@@ -17,7 +17,7 @@ Mỗi bài lab được lưu trong một thư mục riêng để giảng viên c
 
 ---
 
-# 3. Cấu trúc repository
+# 3. Cấu trúc 
 
 ```id="3rj1mj"
 MSSV-Hoten-IE213.Q21
@@ -119,19 +119,19 @@ lab06/screenshots
 # 8. Nội dung đã hoàn thành
 
 Bài tập thực hành 1 (lab01): Hoàn thành
-* ✔ Thiết lập MongoDB Atlas
-* ✔ Thực hiện CRUD Operation
-* ✔ Viết tài liệu và README cho Lab01
+* Thiết lập MongoDB Atlas ✔
+* Thực hiện CRUD Operation ✔
+* Viết tài liệu và README cho Lab01 ✔
 
 ---
 
 # 9. Nội dung chưa hoàn thành
 
-Bài tập thực hành 2 (lab02)
-Bài tập thực hành 3 (lab03)
-Bài tập thực hành 4 (lab04)
-Bài tập thực hành 5 (lab05)
-Bài tập thực hành 6 (lab06)
+Bài tập thực hành 2 (lab02)<br>
+Bài tập thực hành 3 (lab03)<br>
+Bài tập thực hành 4 (lab04)<br>
+Bài tập thực hành 5 (lab05)<br>
+Bài tập thực hành 6 (lab06)<br>
 
 Các nội dung này sẽ được cập nhật trong quá trình thực hiện các bài thực hành tiếp theo.
 
@@ -157,7 +157,6 @@ Lab01:
 
 ---
 
-# 11. Tác giả
 
-Nguyễn Phước Thịnh
-Sinh viên – Đại học Công nghệ Thông tin (UIT)
+Nguyễn Phước Thịnh<br>
+Trường Đại học Công nghệ Thông tin (UIT)
