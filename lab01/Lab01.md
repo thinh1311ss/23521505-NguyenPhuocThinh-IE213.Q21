@@ -14,32 +14,35 @@
 
 ---
 ## Công cụ sử dụng
+* VS code
 * MongoDB Atlas
 * MongoDB Compass
 * Mongo Shell (mongosh)
-* GitHub
+* AI (ChatGPT)
 
 ---
-
 ## Thực hiện
 # Bài 1: Thiết lập môi trường
 
 ## 1.1 Đăng ký MongoDB Atlas và tạo Cluster
 
 **Kết quả**
+
 ![Atlas Cluster](../lab01/screenshots/Lab1_B1_1.1.png)
 
 
 ## 1.2 Tải dữ liệu mẫu vào MongoDB Atlas, Cài đặt MongoDB Compass, Kết nối MongoDB Compass với MongoDB Atlas
 
 **Kết quả**
-(../lab01/screenshots/Lab1_B1_1.2.png)
+
+![MongoDB Compass](../lab01/screenshots/Lab1_B1_1.2.png)
 
 # Bài 2: MongoDB CRUD Operation
 
 ## 2.1 Tạo database có tên MSSV-IE213 trên cluster
 
 **Kết quả**
+
 ![Create Database](../lab01/screenshots/Lab1_B2_2.1.png)
 
 
@@ -56,6 +59,7 @@ db.employees.insertMany([
 ```
 
 **Kết quả**
+
 ![Insert Documents](../lab01/screenshots/Lab1_B2_2.2.png)
 
 
@@ -67,6 +71,7 @@ db.employees.createIndex({ id: 1 }, { unique: true })
 ```
 
 **Kết quả**
+
 ![Unique Index](../lab01/screenshots/Lab1_B2_2.3.png)
 
 
@@ -81,6 +86,7 @@ db.employees.find({
 ```
 
 **Kết quả**
+
 ![Find John Doe](../lab01/screenshots/Lab1_B2_2.4.png)
 
 
@@ -97,6 +103,7 @@ db.employees.find({
 ```
 
 **Kết quả**
+
 ![Find Age Range](../lab01/screenshots/Lab1_B2_2.5.png)
 
 
@@ -117,6 +124,7 @@ db.employees.find({
 ```
 
 **Kết quả**
+
 ![Find Middle Name](../lab01/screenshots/Lab1_B2_2.6.png)
 
 
@@ -131,6 +139,7 @@ db.employees.updateMany(
 ```
 
 **Kết quả**
+
 ![Remove Middle Name](../lab01/screenshots/Lab1_B2_2.7.png)
 
 
@@ -145,6 +154,7 @@ db.employees.updateMany(
 ```
 
 **Kết quả**
+
 ![Add Organization](../lab01/screenshots/Lab1_B2_2.8.png)
 
 
@@ -159,6 +169,7 @@ db.employees.updateMany(
 ```
 
 **Kết quả**
+
 ![Update Organization](../lab01/screenshots/Lab1_B2_2.9.png)
 
 
@@ -178,6 +189,7 @@ db.employees.aggregate([
 ```
 
 **Kết quả**
+
 ![Aggregate Result](../lab01/screenshots/Lab1_B2_2.10.png)
 
 ---

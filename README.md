@@ -23,12 +23,12 @@ Mỗi bài lab được lưu trong một thư mục riêng để giảng viên c
 MSSV-Hoten-IE213.Q21
 │
 ├── README.md
-├── Lab01
-├── Lab02
-├── Lab03
-├── Lab04
-├── Lab05
-└── Lab06
+├── lab01
+├── lab02
+├── lab03
+├── lab04
+├── lab05
+└── lab06
 ```
 
 ---
@@ -48,26 +48,16 @@ Nội dung chính:
 Thư mục:
 
 ```id="h9mn6n"
-Lab01/
+lab01/
 ```
-
----
 
 ## Lab02 
 
----
-
 ## Lab03 
-
----
 
 ## Lab04 
 
----
-
 ## Lab05 
-
----
 
 ## Lab06 
 
@@ -113,27 +103,35 @@ lab01/screenshots
 
 # 7. Hình ảnh minh họa
 
-Hình ảnh minh chứng kết quả thực hiện sẽ nằm trong trong thư mục id="hweay3"
-lab0x/screenshots tương đương tù bài thực hành 1 đến bài thực hành 6
+Các hình ảnh minh chứng kết quả thực hiện được lưu trong thư mục screenshots tương ứng với từng bài thực hành.
 
+Cấu trúc thư mục:
+```id="hweay3"
+lab01/screenshots
+lab02/screenshots
+lab03/screenshots
+lab04/screenshots
+lab05/screenshots
+lab06/screenshots
+```
 ---
 
 # 8. Nội dung đã hoàn thành
 
-* Bài tập thực hành 1: Hoàn thành
-    ✔ Thiết lập MongoDB Atlas
-    ✔ Thực hiện CRUD Operation
-    ✔ Viết tài liệu và README cho Lab01
+Bài tập thực hành 1 (lab01): Hoàn thành
+* ✔ Thiết lập MongoDB Atlas
+* ✔ Thực hiện CRUD Operation
+* ✔ Viết tài liệu và README cho Lab01
 
 ---
 
 # 9. Nội dung chưa hoàn thành
 
-* Bài tập thực hành 2
-* Bài tập thực hành 3
-* Bài tập thực hành 4
-* Bài tập thực hành 5
-* Bài tập thực hành 6
+Bài tập thực hành 2 (lab02)
+Bài tập thực hành 3 (lab03)
+Bài tập thực hành 4 (lab04)
+Bài tập thực hành 5 (lab05)
+Bài tập thực hành 6 (lab06)
 
 Các nội dung này sẽ được cập nhật trong quá trình thực hiện các bài thực hành tiếp theo.
 
@@ -141,23 +139,19 @@ Các nội dung này sẽ được cập nhật trong quá trình thực hiện 
 
 # 10. Các công cụ sử dụng 
 
-### Công cụ thực hành sử dụng chính
-Visual Studio Code
-MongoDB Atlas
-MongoDB Compass
+## Công cụ thực hành sử dụng chính
+* Visual Studio Code
+* MongoDB Atlas
+* MongoDB Compass
 
-### Công cụ hỗ trợ (AI)
-
+## Công cụ hỗ trợ (AI)
 * ChatGPT
-
-## Mục đích sử dụng
-
+### Mục đích sử dụng AI 
 * Nhờ AI giải thích một số lệnh MongoDB
 * Gợi ý cách tổ chức README
 * Hỗ trợ tìm hiểu lỗi trong quá trình thực hành
-
-## Phần được AI hỗ trợ
-# Lab01: 
+### Phần được AI hỗ trợ
+Lab01: 
   * Hướng dẫn cấu trúc README
   * Giải thích các lệnh MongoDB
 
