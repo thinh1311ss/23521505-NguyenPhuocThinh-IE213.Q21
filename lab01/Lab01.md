@@ -22,31 +22,31 @@
 
 ---
 ## Thực hiện
-# Bài 1: Thiết lập môi trường
+### Bài 1: Thiết lập môi trường
 
-## 1.1 Đăng ký MongoDB Atlas và tạo Cluster
+#### 1.1 Đăng ký MongoDB Atlas và tạo Cluster
 
 **Kết quả**
 
 ![Atlas Cluster](../lab01/screenshots/Lab1_B1_1.1.png)
 
 
-## 1.2 Tải dữ liệu mẫu vào MongoDB Atlas, Cài đặt MongoDB Compass, Kết nối MongoDB Compass với MongoDB Atlas
+#### 1.2 Tải dữ liệu mẫu vào MongoDB Atlas, Cài đặt MongoDB Compass, Kết nối MongoDB Compass với MongoDB Atlas
 
 **Kết quả**
 
 ![MongoDB Compass](../lab01/screenshots/Lab1_B1_1.2.png)
 
-# Bài 2: MongoDB CRUD Operation
+### Bài 2: MongoDB CRUD Operation
 
-## 2.1 Tạo database có tên MSSV-IE213 trên cluster
+#### 2.1 Tạo database có tên MSSV-IE213 trên cluster
 
 **Kết quả**
 
 ![Create Database](../lab01/screenshots/Lab1_B2_2.1.png)
 
 
-## 2.2 Thêm các document vào collection employees
+#### 2.2 Thêm các document vào collection employees
 
 **Thực hiện**
 ```javascript
@@ -63,7 +63,7 @@ db.employees.insertMany([
 ![Insert Documents](../lab01/screenshots/Lab1_B2_2.2.png)
 
 
-## 2.3 Tạo unique index cho trường id
+#### 2.3 Tạo unique index cho trường id
 
 **Thực hiện**
 ```javascript
@@ -75,7 +75,7 @@ db.employees.createIndex({ id: 1 }, { unique: true })
 ![Unique Index](../lab01/screenshots/Lab1_B2_2.3.png)
 
 
-## 2.4 Tìm nhân viên John Doe
+#### 2.4 Tìm nhân viên John Doe
 
 **Thực hiện**
 ```javascript
@@ -90,7 +90,7 @@ db.employees.find({
 ![Find John Doe](../lab01/screenshots/Lab1_B2_2.4.png)
 
 
-## 2.5 Tìm nhân viên có tuổi trên 30 và dưới 60
+#### 2.5 Tìm nhân viên có tuổi trên 30 và dưới 60
 
 **Thực hiện**
 ```javascript
@@ -107,7 +107,7 @@ db.employees.find({
 ![Find Age Range](../lab01/screenshots/Lab1_B2_2.5.png)
 
 
-## 2.6 Thêm document có middle name
+#### 2.6 Thêm document có middle name
 
 **Thực hiện**
 ```javascript
@@ -128,7 +128,7 @@ db.employees.find({
 ![Find Middle Name](../lab01/screenshots/Lab1_B2_2.6.png)
 
 
-## 2.7 Xóa trường middle name
+#### 2.7 Xóa trường middle name
 
 **Thực hiện**
 ```javascript
@@ -143,7 +143,7 @@ db.employees.updateMany(
 ![Remove Middle Name](../lab01/screenshots/Lab1_B2_2.7.png)
 
 
-## 2.8 Thêm trường organization
+#### 2.8 Thêm trường organization
 
 **Thực hiện**
 ```javascript
@@ -158,7 +158,7 @@ db.employees.updateMany(
 ![Add Organization](../lab01/screenshots/Lab1_B2_2.8.png)
 
 
-## 2.9 Cập nhật organization của id 5 và 6
+#### 2.9 Cập nhật organization của id 5 và 6
 
 **Thực hiện**
 ```javascript
@@ -173,7 +173,7 @@ db.employees.updateMany(
 ![Update Organization](../lab01/screenshots/Lab1_B2_2.9.png)
 
 
-## 2.10 Tính tổng tuổi và tuổi trung bình theo organization
+#### 2.10 Tính tổng tuổi và tuổi trung bình theo organization
 
 **Thực hiện**
 ```javascript

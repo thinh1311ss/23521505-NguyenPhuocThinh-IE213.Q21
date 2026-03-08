@@ -1,4 +1,6 @@
-# IE213 – Kỹ thuật phát triển hệ thống Web
+# IE213 – KỸ THUẬT PHÁT TRIỂN HỆ THỐNG WEB
+
+---
 
 # 1. Thông tin sinh viên
 
@@ -118,7 +120,7 @@ lab06/screenshots
 
 # 8. Nội dung đã hoàn thành
 
-Bài tập thực hành 1 (lab01): Hoàn thành
+Lab01: Hoàn thành
 * Thiết lập MongoDB Atlas ✔
 * Thực hiện CRUD Operation ✔
 * Viết tài liệu và README cho Lab01 ✔
@@ -127,11 +129,11 @@ Bài tập thực hành 1 (lab01): Hoàn thành
 
 # 9. Nội dung chưa hoàn thành
 
-Bài tập thực hành 2 (lab02)<br>
-Bài tập thực hành 3 (lab03)<br>
-Bài tập thực hành 4 (lab04)<br>
-Bài tập thực hành 5 (lab05)<br>
-Bài tập thực hành 6 (lab06)<br>
+Lab02<br>
+Lab03<br>
+Lab04<br>
+Lab05<br>
+Lab06<br>
 
 Các nội dung này sẽ được cập nhật trong quá trình thực hiện các bài thực hành tiếp theo.
 
