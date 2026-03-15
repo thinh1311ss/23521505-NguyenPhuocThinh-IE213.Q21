@@ -22,7 +22,7 @@ Mỗi bài lab được lưu trong một thư mục riêng để giảng viên c
 # 3. Cấu trúc 
 
 ```id="3rj1mj"
-MSSV-Hoten-IE213.Q21
+23521505-NguyenPhuocThinh-IE213.Q21
 │
 ├── README.md
 ├── lab01
@@ -53,7 +53,21 @@ Thư mục:
 lab01/
 ```
 
-## Lab02 
+## Lab02 – Thiết lập Backend với NodeJS và ExpressJS
+
+Nội dung chính:
+
+* Thiết lập môi trường NodeJS
+* Xây dựng server với ExpressJS
+* Kết nối MongoDB Atlas
+* Tổ chức project theo mô hình DAO – Controller – Route
+* Xây dựng API `/api/v1/movies`
+
+Thư mục:
+
+```
+lab02/
+```
 
 ## Lab03 
 
@@ -79,8 +93,14 @@ Ví dụ:
 ```javascript id="k9eeyv"
 use MSSV-ie213
 ```
-
 Sau đó thực hiện các lệnh CRUD theo yêu cầu của bài thực hành.
+
+Đối với Lab02:
+
+1. Di chuyển vào thư mục backend  cd lab02/movie-reviews/backend
+2. Cài đặt dependency npm install
+3. Chạy server npm start
+4. Truy cập API http://localhost:3000/api/v1/movies
 
 ---
 
@@ -99,6 +119,20 @@ Kết quả được minh họa bằng hình ảnh trong thư mục:
 
 ```id="hweay3"
 lab01/screenshots
+```
+
+Đã thực hiện thành công các yêu cầu của Lab02:
+
+* Thiết lập môi trường NodeJS
+* Cài đặt ExpressJS và MongoDB
+* Xây dựng server backend
+* Thiết lập API `/api/v1/movies`
+* Kết nối MongoDB Atlas
+
+Kết quả được minh họa bằng hình ảnh trong thư mục:
+
+```
+lab02/screenshots
 ```
 
 ---
@@ -125,11 +159,16 @@ Lab01: Hoàn thành
 * Thực hiện CRUD Operation ✔
 * Viết tài liệu và README cho Lab01 ✔
 
+Lab02: Hoàn thành
+* Thiết lập môi trường NodeJS ✔
+* Xây dựng backend với ExpressJS ✔
+* Kết nối MongoDB Atlas ✔
+* Xây dựng API `/api/v1/movies` ✔
+
 ---
 
 # 9. Nội dung chưa hoàn thành
 
-Lab02<br>
 Lab03<br>
 Lab04<br>
 Lab05<br>
@@ -145,9 +184,12 @@ Các nội dung này sẽ được cập nhật trong quá trình thực hiện 
 * Visual Studio Code
 * MongoDB Atlas
 * MongoDB Compass
+* NodeJS
+* ExpressJS
 
 ## Công cụ hỗ trợ (AI)
 * ChatGPT
+* Claude Code
 ### Mục đích sử dụng AI 
 * Nhờ AI giải thích một số lệnh MongoDB
 * Gợi ý cách tổ chức README
@@ -156,6 +198,10 @@ Các nội dung này sẽ được cập nhật trong quá trình thực hiện 
 Lab01: 
   * Hướng dẫn cấu trúc README
   * Giải thích các lệnh MongoDB
+
+Lab02: 
+  * Hỗ trợ quá trình thực hiện và debug các file code 
+  * Giải thích 1 số đoạn code và chỉ ra flow hoạt động
 
 ---
 
