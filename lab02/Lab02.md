@@ -1,4 +1,4 @@
-# LAB02 – Thiết lập Backend với NodeJS và ExpressJS
+# LAB02 – Thiết lập Backend với NodeJS / ExpressJS
 
 ---
 ## Thông tin sinh viên
