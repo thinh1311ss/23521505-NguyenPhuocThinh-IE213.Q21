@@ -69,7 +69,22 @@ Thư mục:
 lab02/
 ```
 
-## Lab03 
+## Lab03 – Hoàn thiện Backend cho ứng dụng minh họa
+
+Nội dung chính:
+
+* Xây dựng chức năng Review (POST, PUT, DELETE)
+* Tạo Controller và DAO cho review
+* Hoàn thiện API backend
+* Thêm API nâng cao:
+  - /api/v1/movies/id/:id
+  - /api/v1/movies/ratings
+
+Thư mục:
+
+```
+lab03/
+```
 
 ## Lab04 
 
@@ -102,7 +117,22 @@ Sau đó thực hiện các lệnh CRUD theo yêu cầu của bài thực hành.
 3. Chạy server npm start
 4. Truy cập API http://localhost:3000/api/v1/movies
 
+Đối với Lab03:
+
+1. Di chuyển vào thư mục backend  cd lab03/movie-reviews/backend
+2. Cài đặt dependency npm install
+3. Chạy server npm start
+4. Truy cập API http://localhost:3000/api/v1/movies
+5. Truy cập Insomnia để test các API 
+   
+Ví dụ:
+
+```
+GET http://localhost:3000/api/v1/movies/id/573a1390f29313caabcd446f
+```
+
 ---
+
 
 # 6. Kết quả thực hiện
 
@@ -135,6 +165,19 @@ Kết quả được minh họa bằng hình ảnh trong thư mục:
 lab02/screenshots
 ```
 
+Đã thực hiện thành công các yêu cầu của Lab03:
+
+* Xây dựng chức năng Review (CRUD)
+* Tạo Controller và DAO cho review
+* Hoàn thiện backend cho ứng dụng movies
+* Xây dựng API nâng cao
+
+Kết quả được minh họa bằng hình ảnh trong thư mục:
+
+```
+lab03/screenshots
+```
+
 ---
 
 # 7. Hình ảnh minh họa
@@ -165,11 +208,15 @@ Lab02: Hoàn thành
 * Kết nối MongoDB Atlas ✔
 * Xây dựng API `/api/v1/movies` ✔
 
+Lab03: Hoàn thành
+* Xây dựng chức năng Review ✔
+* Thực hiện CRUD Review ✔
+* Hoàn thiện API backend ✔
+
 ---
 
 # 9. Nội dung chưa hoàn thành
 
-Lab03<br>
 Lab04<br>
 Lab05<br>
 Lab06<br>
@@ -186,6 +233,7 @@ Các nội dung này sẽ được cập nhật trong quá trình thực hiện 
 * MongoDB Compass
 * NodeJS
 * ExpressJS
+* Insomnia
 
 ## Công cụ hỗ trợ (AI)
 * ChatGPT
@@ -202,6 +250,12 @@ Lab01:
 Lab02: 
   * Hỗ trợ quá trình thực hiện và debug các file code 
   * Giải thích 1 số đoạn code và chỉ ra flow hoạt động
+
+Lab03:
+  * Hỗ trợ thiết kế API review
+  * Giải thích flow Controller – DAO
+  * Debug lỗi backend
+  * Hỗ trợ quá trình thực hiện và debug các file code 
 
 ---
 
