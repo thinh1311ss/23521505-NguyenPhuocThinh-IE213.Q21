@@ -1,4 +1,4 @@
-# LAB02 – Hoàn thiện Backend cho ứng dụng minh họa
+# LAB03 – Hoàn thiện Backend cho ứng dụng minh họa
 
 ---
 ## Thông tin sinh viên
@@ -46,9 +46,10 @@ lab03
 
 ---
 ## Thực hiện
-### Bài 1: ###  Thiết lập định tuyến cho các thao tác với review (Post/Update/Delete)
+### Bài 1: Thiết lập định tuyến cho các thao tác với review (Post/Update/Delete)
 
 **Kết quả**
+
 [movies.route.js](./movie-reviews/backend/api/movies.route.js)
 
 ![1](../lab03/screenshots/Lab3_B1.png)
@@ -56,9 +57,9 @@ lab03
 
 ### Bài 2: Thiết lập Controller cho review.
 
-Tạo tệp tin reviews.controller.js để quản lý các yêu cầu có liên quan đến review từ người dùng gửi lên từ máy khách bao gồm các function: 
-apiPostReview() 
-apiUpdateReview()
+Tạo tệp tin reviews.controller.js để quản lý các yêu cầu có liên quan đến review từ người dùng gửi lên từ máy khách bao gồm các function:<br>
+apiPostReview()<br>
+apiUpdateReview()<br>
 apiDeleteReview()
 
 **Kết quả**
@@ -71,12 +72,13 @@ apiDeleteReview()
 ### Bài 3: Thiết lập DAO cho reviews.
 
 #### 3.1 Trong thư mục DAO tạo tệp tin reviewsDAO.js.
-DAO dùng để thao tác với database MongoDB bao gồm các function:
-addReview()
-updateReview()
+DAO dùng để thao tác với database MongoDB bao gồm các function:<br>
+addReview()<br>
+updateReview()<br>
 deleteReview()
 
 **Kết quả**
+
 [reviewsDAO.js](./movie-reviews/backend/dao/reviewsDAO.js)
 
 ![3.1](../lab03/screenshots/Lab3_B3.1.png)
@@ -84,6 +86,7 @@ deleteReview()
 #### 3.2 Thử nghiệm các API bằng phần mềm hỗ trợ Insomnia
 
 **Kết quả**
+
 Thêm dữ liệu
 
 ![3.2.1](../lab03/screenshots/Lab3_B3.2.1.png)
@@ -103,6 +106,7 @@ Xóa dữ liệu
 #### 4.1 Thêm 2 định tuyến 
 
 **Kết quả**
+
 [movies.route.js](./movie-reviews/backend/api/movies.route.js)
 
 ![4.1](../lab03/screenshots/Lab3_B4.1.png)
@@ -110,6 +114,7 @@ Xóa dữ liệu
 #### 4.2 Thêm 2 phương thức apiGetMovieById() và apiGetRatings() trong movie controller.
 
 **Kết quả**
+
 [movies.controller.js](./movie-reviews/backend/api/reviews.controller.js)
 
 ![4.2](../lab03/screenshots/Lab3_B4.2.png)
@@ -118,6 +123,7 @@ Xóa dữ liệu
 #### 4.3 Thêm 2 phương thức DAO getRatings() và getMovieById() trong dao movie.
 
 **Kết quả**
+
 [moviesDAO.js](./movie-reviews/backend/dao/moviesDAO.js)
 
 ![4.3](../lab03/screenshots/Lab3_B4.3.png)
@@ -125,6 +131,7 @@ Xóa dữ liệu
 #### 4.4 Thử nghiệm các API bằng phần mềm hỗ trợ Insomnia
 
 **Kết quả**
+
 Lấy theo ratings 
 
 ![4.4.1](../lab03/screenshots/Lab3_B4.4.1.png)
