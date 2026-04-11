@@ -86,7 +86,21 @@ Thư mục:
 lab03/
 ```
 
-## Lab04 
+## Lab04 – Thiết lập Frontend với ReactJS
+ 
+Nội dung chính:
+ 
+* Tạo template frontend với React (create-react-app)
+* Cài đặt Bootstrap và React Router DOM
+* Xây dựng Navigation Header bar với React-Bootstrap
+* Tạo các component: movies-list, movie, add-review, login
+* Thiết lập định tuyến với React Router DOM
+ 
+Thư mục:
+ 
+```
+lab04/
+```
 
 ## Lab05 
 
@@ -131,6 +145,13 @@ Ví dụ:
 GET http://localhost:3000/api/v1/movies/id/573a1390f29313caabcd446f
 ```
 
+Đối với Lab04:
+ 
+1. Di chuyển vào thư mục frontend  cd lab04/movie-reviews/frontend
+2. Cài đặt dependency npm install
+3. Chạy ứng dụng npm start
+4. Truy cập giao diện http://localhost:3000
+ 
 ---
 
 
@@ -178,6 +199,20 @@ Kết quả được minh họa bằng hình ảnh trong thư mục:
 lab03/screenshots
 ```
 
+Đã thực hiện thành công các yêu cầu của Lab04:
+ 
+* Tạo template frontend với create-react-app
+* Cài đặt Bootstrap và React Router DOM
+* Xây dựng Navigation Header bar với React-Bootstrap
+* Tạo các component: movies-list, movie, add-review, login
+* Thiết lập định tuyến cho các component
+ 
+Kết quả được minh họa bằng hình ảnh trong thư mục:
+ 
+```
+lab04/screenshots
+```
+
 ---
 
 # 7. Hình ảnh minh họa
@@ -213,11 +248,17 @@ Lab03: Hoàn thành
 * Thực hiện CRUD Review ✔
 * Hoàn thiện API backend ✔
 
+Lab04: Hoàn thành
+* Tạo template frontend với ReactJS ✔
+* Cài đặt Bootstrap và React Router DOM ✔
+* Xây dựng Navigation Header bar ✔
+* Tạo các component cần thiết ✔
+* Thiết lập định tuyến với React Router DOM ✔
+
 ---
 
 # 9. Nội dung chưa hoàn thành
 
-Lab04<br>
 Lab05<br>
 Lab06<br>
 
@@ -233,6 +274,9 @@ Các nội dung này sẽ được cập nhật trong quá trình thực hiện 
 * MongoDB Compass
 * NodeJS
 * ExpressJS
+* ReactJS
+* Bootstrap / React-Bootstrap
+* React Router DOM
 * Insomnia
 
 ## Công cụ hỗ trợ (AI)
@@ -257,6 +301,12 @@ Lab03:
   * Debug lỗi backend
   * Hỗ trợ quá trình thực hiện và debug các file code 
 
+Lab04:
+  * Hỗ trợ thiết lập cấu trúc component ReactJS
+  * Giải thích cách hoạt động của React Router DOM
+  * Debug lỗi trong quá trình cài đặt package và cấu hình định tuyến
+  * Hỗ trợ tích hợp React-Bootstrap vào dự án
+  
 ---
 
 
