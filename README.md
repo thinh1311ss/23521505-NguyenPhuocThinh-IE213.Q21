@@ -102,11 +102,21 @@ Thư mục:
 lab04/
 ```
 
-## Lab05 
-
+### Lab05 – Xây dựng Frontend với ReactJS (tiếp theo Lab04)
+ 
+Nội dung chính:
+ 
+* Kết nối frontend tới backend qua `axios`
+* Tạo lớp dịch vụ `MovieDataService` trong `src/services/movies.js`
+* Xây dựng `MoviesList` component: hiển thị danh sách phim, tìm kiếm theo title và rating
+* Xây dựng `Movie` component: hiển thị chi tiết phim và danh sách review
+* Sử dụng `useState()` và `useEffect()` hooks
+* Định dạng thời gian với `moment.js`
+Thư mục: `lab05/`
+ 
+---
 ## Lab06 
 
----
 
 # 5. Cách chạy chương trình
 
@@ -124,12 +134,16 @@ use MSSV-ie213
 ```
 Sau đó thực hiện các lệnh CRUD theo yêu cầu của bài thực hành.
 
+---
+
 Đối với Lab02:
 
 1. Di chuyển vào thư mục backend  cd lab02/movie-reviews/backend
 2. Cài đặt dependency npm install
 3. Chạy server npm start
 4. Truy cập API http://localhost:3000/api/v1/movies
+
+---
 
 Đối với Lab03:
 
@@ -145,6 +159,8 @@ Ví dụ:
 GET http://localhost:3000/api/v1/movies/id/573a1390f29313caabcd446f
 ```
 
+---
+
 Đối với Lab04:
  
 1. Di chuyển vào thư mục frontend  cd lab04/movie-reviews/frontend
@@ -154,6 +170,22 @@ GET http://localhost:3000/api/v1/movies/id/573a1390f29313caabcd446f
  
 ---
 
+Đối với Lab05:
+ 
+
+  Terminal 1 — Backend (Lab03)
+  1. Di chuyển vào thư mục backend cd lab05/movie-reviews/backend
+  2. Cài đặt dependency npm install
+  3. Chạy ứng dụng npm start
+ 
+  Terminal 2 — Frontend (Lab05)
+  1. Di chuyển vào thư mục frontend  cd lab05/movie-reviews/frontend
+  2. Cài đặt dependency npm install
+  3. Chạy ứng dụng npm start
+  4. Truy cập giao diện http://localhost:3000
+
+ 
+---
 
 # 6. Kết quả thực hiện
 
@@ -213,6 +245,20 @@ Kết quả được minh họa bằng hình ảnh trong thư mục:
 lab04/screenshots
 ```
 
+Đã thực hiện thành công các yêu cầu của Lab05:
+ 
+* Kết nối frontend tới backend với `axios`
+* Tạo lớp dịch vụ `MovieDataService`
+* Xây dựng `MoviesList` component với tìm kiếm theo title và rating
+* Xây dựng `Movie` component hiển thị chi tiết phim và review
+* Hiển thị danh sách review với định dạng thời gian bằng `moment.js`
+ 
+Kết quả được minh họa bằng hình ảnh trong thư mục:
+ 
+```
+lab05/screenshots
+```
+
 ---
 
 # 7. Hình ảnh minh họa
@@ -255,11 +301,17 @@ Lab04: Hoàn thành
 * Tạo các component cần thiết ✔
 * Thiết lập định tuyến với React Router DOM ✔
 
+Lab05: Hoàn thành
+* Kết nối frontend tới backend với axios ✔
+* Tạo lớp dịch vụ `MovieDataService` ✔
+* Xây dựng `MoviesList` component ✔
+* Xây dựng `Movie` component ✔
+* Hiển thị review với `moment.js` ✔
+
 ---
 
 # 9. Nội dung chưa hoàn thành
 
-Lab05<br>
 Lab06<br>
 
 Các nội dung này sẽ được cập nhật trong quá trình thực hiện các bài thực hành tiếp theo.
@@ -277,7 +329,9 @@ Các nội dung này sẽ được cập nhật trong quá trình thực hiện 
 * ReactJS
 * Bootstrap / React-Bootstrap
 * React Router DOM
-* Insomnia
+* Axios
+* Moment.js
+* Insomnia 
 
 ## Công cụ hỗ trợ (AI)
 * ChatGPT
@@ -306,7 +360,11 @@ Lab04:
   * Giải thích cách hoạt động của React Router DOM
   * Debug lỗi trong quá trình cài đặt package và cấu hình định tuyến
   * Hỗ trợ tích hợp React-Bootstrap vào dự án
-  
+
+Lab05:
+  * Giải thích cách hoạt động của `useState()` và `useEffect()`
+  * Debug lỗi kết nối frontend – backend (CORS, endpoint)
+
 ---
 
 
